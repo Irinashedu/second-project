@@ -1,0 +1,158 @@
+@media screen and (max-width: 576px) {
+	.container {
+		width: 100%;
+	}	
+	// NAVBAR
+	.navbar {
+		width: 100%;
+		
+	}
+	#navbarNav1 {
+		padding-right: 0;
+	}
+	#navbarNav2 {
+		padding-left: 0;
+	}
+	.navbar-nav {
+		background-color: rgba(255,255,255, 0.6);
+		// opacity: 0.7;
+		color: $colorB;
+		padding: 10px;
+	}	
+	.navbar-toggler-icon {
+		color: $ItemColor;
+		font-size: 30px;
+		padding: 10px;		
+	}	
+	.nav-item {
+		padding: 5px 10px;		
+		&:hover {
+			color: $ItemColor;
+		}
+	}
+	// FIRST
+	.section {
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		&__line {
+			opacity: 0.6;
+			&--third {			
+				&__first {
+					top: 150px !important;
+				}
+			}
+			&__first {
+				top: 0;
+			}
+		}
+	}	
+	.wheel-img {
+		height: 80%;
+		width: 80%;
+	}
+	.subtitle {
+		margin-bottom: 30px;
+		&:before {
+			bottom: -13px;
+		}	
+		&__first {
+			font-size: 58px;
+		}
+	}
+	// BUTTON
+	.btns-flex {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+	}
+	.btns {
+		height: 50px;		
+	}
+	.btns-primary {
+		width: 150px;
+		margin: 20px 10px;
+	}
+	// MENU
+	.menu {
+		&__left {
+			left: 7%;
+			top: 60%;
+			font-size: 12px;			
+		}
+		&__right {
+			right: 7%;
+			top: 60%;
+			&__item {
+				font-size: 15px;
+				width: 30px;
+				height: 30px;
+				line-height: 30px;
+				margin: 15px 0;
+			}
+		}
+	}
+	// FORM
+	.image {
+		padding: 30px 70px;
+		&:before {			
+			top: 50%;
+			width: 100px;
+			height: 100px;
+			border: 12px solid $ItemColor;
+			border-radius: 5px;
+		}
+		&--right {
+			&:before {
+				transform: translate(-20%, -50%);
+				right: 0;		
+			}		
+		}
+		&--left {
+			&:before {
+				left: 0;
+				transform: translate(20%, -50%);
+			}		
+		}
+	}
+	.text-right {
+	padding: 5px 30px;
+	}
+	.text-left {
+	padding: 5px 30px;
+	}
+	// CAROUSEL
+	.carousel-indicators {
+		padding-bottom: 30px;	
+	}
+	// DELMENU
+	.delmenu-price {
+	padding: 6px 15px;
+	}
+	.delmenu {
+		padding: 10px 5px;
+	}
+	.price {
+		text-align: center;
+		&__title {
+			font-size: 14px;
+		}
+		&__subtitle {
+			font-size: 10px;
+		}
+	}
+	// SEVEN
+	.image-black {	
+		&__text {					 
+			height: 40px;		
+			line-height: 40px;			
+			font-size: 16px;
+		}
+	}
+	// EIGHTH
+	// NINE
+	.nine_btn {
+		margin-top: 15px;
+	}
+}	
